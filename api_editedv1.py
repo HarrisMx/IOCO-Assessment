@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, escape, request
 from database import EmployeeHandler
-db = EmployeeHandler('mxolisi', 'Mx@lisi7', '160.153.133.158', 'employee')
+db = EmployeeHandler('mxolisi', 'Mx@lisi7', 'localhost', 'employee')
 
 app = Flask(__name__)
 
